@@ -29,6 +29,9 @@ function palindrome(str) {
   }
 
 function runIt(){
+    contentPlaceholder1.innerHTML = "";
+    contentPlaceholder2.innerHTML = "";
+    contentPlaceholder3.innerHTML = "";
     var inputValue = letterInput.value;
     if(inputValue.match(lettersOnly))
         {
